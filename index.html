@@ -1,12 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Documentazione sulla sottotitolazione del video</title>
+    <script src="https://kit.fontawesome.com/c7425d772a.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <h1>Prova </h1>
-    <h2>Porva di testo 2</h2>
+
+    <div id="main">
+
+        <ul>
+            <li><a class="active" href="#main"><i class="fas fa-home"></i></a></li>
+            <li><a href="#Editor">Editor</a></li>
+            <li><a href="#Punti_di_forza">Punti di forza</a></li>
+            <li><a href="#Punti_di_debolezza">Punti di debolezza</a></li>
+            <li><a href="#GitHub">GitHub</a></li>
+            <li><a href="#Video_con_sottotitoli">Video con sottotitoli</a></li>
+        </ul>
+
+        <section class="titolo">
+            <h1>DOCUMENTAZIONE SOTTOTITOLI</h1>
+            <p class="Paragrafo">A cura di Simoncini Mattia</p>
+        </section>
+
+        <section id="Editor">
+            <div class="sottotitolo">
+                <h2>Editor usato:</h2>
+                <p class="Paragrafo_immagine">Per effettuare la sottotitolazione del mio video ho utilizzato l'editor
+                    Aegisub, un editor creato
+                    proprio per effettuare la sottotitolazione di file video e completamente gratuito. Questo editor è
+                    un editor molto valido con
+                    cui mi sono trovato molto bene perché abbastanza semplice da utilizzare e molto buono per effettuare
+                    la sottotitolazione di un qualunque file video. Inoltre con questo editor possiamo esportare i
+                    sottotitoli con molteplici estenzioni come: .srt, .ass, .sub e tanti altri ancora.</p>
+
+
+            </div>
+            <div class="DivImmagine">
+                <img src="images/aegisub.png" alt="immaginine_AegiSub">
+            </div>
+        </section>
+        <section id="Punti_di_forza">
+            <div class="sottotitolo">
+                <h2>Punti di forza riscontrati:</h2>
+                <p class="Paragrafo2">Usanto l'editor Aegisub sono riuscito con molta precisiona a prendere il tempo di
+                    inizio e di fine di
+                    ogni singolo sottotitolo. In questo modo sono riuscito a sincronizzare i sottotitoli in maniera
+                    pressoché perfetta con la
+                    tracci audio del video.</p>
+            </div>
+        </section>
+
+        <section id="Punti_di_debolezza">
+
+            <div class="sottotitolo">
+                <h2>Punti di debolezza riscontrati:</h2>
+                <p class="Paragrafo2">Non avendo mai usato l'editor Aegisub, non è stato immediato capire tutte le
+                    funzionalità che dovevo usare per effettuare la sottotitolazione soprattutto i comandi che servivono
+                    per cambiare posizione dei sottotitoli all'interno del video e i comandi che servivono a cambiare lo
+                    stile del carattere con cui venivano scritti i sottotitoli. L'ultimo comando a me serviva
+                    particolarmente perché lo stile di default di Aegisub mostrava il colore delle scritte di colore
+                    bianco ed io avendo anche lo sfondo del video di colore bianco non riuscivo a vedere le scritte e
+                    quinid non riuscivo a capire se la sottotitolazione la stavo effettuando correttamente. Ma
+                    dopo esseremi informato sul web e dopo aver visto qualche tutorial su youtube sono riuscito a capire
+                    come funzionasse e sono riuscito ad effettuare la sottotitolazione nel migliore dei modi.</p>
+            </div>
+        </section>
+
+        <section id="GitHub">
+            <div class="sottotitolo">
+                <h2>GitHub:</h2>
+                <p class="Paragrafo2">All'inizio non è stato immediato impararlo perché non avendolo mai usato non sono
+                    riuscito a capire subito tutte le sue funzionalità. Però
+                    dopo essermi informato sulle varie funzionalità è stato abbastanza semplice da utilizzare. Per
+                    effettuare questo progetto ho utilizzato GitHub Pages ed ho lavorato su GitHub Desktop che ho
+                    scaricato sul mio PC cosi da poter lavorare con il progetto in locale e caricarlo su GitHub Pages
+                    una volta finito completamente il progetto.</p>
+            </div>
+        </section>
+
+        <section id="Video_con_sottotitoli">
+            <div class="sottotitolo">
+                <h2>Video con sottotitoli:</h2>
+                <p class="Paragrafo2">In seguito è presentato il video con i sottotitoli sia in italinao che in inglese
+                    scritti utilizzando l'editor "AegiSub". Questo video per caricarlo su questa pagina lo dovuto
+                    carcare prima su youtube perché GitHub Desktop mi impediva di caricarlo in quando tutto il progetto
+                    pesava più di 100 MB dimensione massima per caricare dei file. I sottotitoli presenti sul video sono
+                    stati caricati in formato .srt e non sono quelle generati automaticamente da youtube.
+                    Una volta avviato il video i sottotitoli possono essere attivati o disattivati attraverso il
+                    pulsante presente accanto alle impostazioni e per cambiare lingua dei sottotitoli basta andare su
+                    impostazioni e poi sottotitoli e selezionare la lingua che vogliamo utilizzare. La lingua di defaul
+                    è la lingua italina ma i sottotitoli possiamo averli anche il lingua inglese.</p>
+                <div class="video">
+                    <iframe width="1090" height="615" src="https://www.youtube.com/embed/qnGnTItqiUU"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).on('click', 'a[href^="#"]', function () {
+            event.preventDefault();
+
+            $('html, body').animate({
+                scrollTop: $($.attr(this, 'href')).offset().top - 50
+            }, 700);
+        });
+    </script>
 </body>
+
 </html>
