@@ -1,0 +1,556 @@
+﻿1
+00:00:00,560 --> 00:00:07,980
+In questo video parliamo del criterio 3.1.3 parole inusuali livello AAA.
+
+2
+00:00:08,580 --> 00:00:13,740
+Questo criterio è un criterio della linea guida 3.1 Leggibile
+
+3
+00:00:13,740 --> 00:00:18,960
+infatti bisogna sempre rendere il testo leggibile e comprensibile a tutti...
+
+4
+00:00:19,560 --> 00:00:22,580
+Per ulteriori informazioni su questa linea guida
+
+5
+00:00:22,580 --> 00:00:27,220
+confrontare il sito del Web Content Accessibility Guidelines
+
+6
+00:00:27,220 --> 00:00:33,340
+(WCAG) 3.1 ed andare sul sito www.w3.org
+
+7
+00:00:33,940 --> 00:00:38,480
+Ora andiamo a vedere nel dettaglio il criterio 3.1.3
+
+8
+00:00:39,120 --> 00:00:42,360
+questo criterio mette a disposizione dell'utente
+
+9
+00:00:42,360 --> 00:00:45,980
+un meccanismo per identificare specifiche definizioni
+
+10
+00:00:45,980 --> 00:00:50,720
+di parole o frasi che sono state usate in modo insolito o ristretto.
+
+11
+00:00:51,400 --> 00:00:57,420
+All'interno di queste parole sono comprese anche le espressioni idiomatiche e quelle gergali
+
+12
+00:00:58,220 --> 00:01:03,540
+le tecniche sufficiente per soddisfare il criterio si dividono in due situazioni che sono...
+
+13
+00:01:03,540 --> 00:01:09,980
+la situazione a, quando la parola o la frase ha un significato univoco all'interno della pagina web
+
+14
+00:01:09,980 --> 00:01:17,120
+e la situazione b, quando la parola o la frase significano cose diverse all'interno della stessa pagina web.
+
+15
+00:01:18,260 --> 00:01:23,200
+Le tecniche sufficienti per soddisfare la situazione A sono le seguenti:
+
+16
+00:01:23,600 --> 00:01:29,040
+abbiamo quattro insiemi di tecniche e la tecnica G101 è comune a tutte e quattro.
+
+17
+00:01:29,740 --> 00:01:37,400
+Il primo insieme di tecniche è composto dalla tecnica G101, G55, H40 e H60.
+
+18
+00:01:37,840 --> 00:01:46,220
+La tecnica G55 ci presenta di fornire un collegamento alle definizioni delle parole usate in modo insolito o ristretto.
+
+19
+00:01:46,840 --> 00:01:55,200
+Ha sua volta si divide nella tecnica H40, ovvero fornire degli elenchi descrittivi di tutte le parole usate in modo insolito o ristretto
+
+20
+00:01:55,200 --> 00:02:03,560
+e la tecnica H60, ovvero l'utilizzo dell'elemento link per il collegamento ad un glossario dove sono raccolte tutte queste parole
+
+21
+00:02:03,560 --> 00:02:07,620
+ed in genere il glossario si trova in fondo alla pagina web.
+
+22
+00:02:08,080 --> 00:02:16,240
+Il secondo insieme di tecniche è composto dalle tecniche G101, G112 e H54.
+
+23
+00:02:16,500 --> 00:02:21,320
+La tecnica G112 ci dice di fornire delle definizioni incorporate
+
+24
+00:02:21,320 --> 00:02:31,880
+mentre la tecnica H54 ci dice di utilizzare l'attributo dfn per identificare l'istanza di una definizione di una parola.
+
+25
+00:02:32,980 --> 00:02:38,280
+Il terzo insieme è composto dalle tecniche G101 e G62.
+
+26
+00:02:39,080 --> 00:02:47,920
+Quest'ultima tecnica ci dice di fornire un glossario all'interno del quale sono raccolte tutte le parole usate in modo insolito o limitato.
+
+27
+00:02:48,720 --> 00:02:55,580
+Il quarto e ultimo insieme di tecniche è composto dalle tecniche numero G101 e G70.
+
+28
+00:02:55,820 --> 00:03:04,940
+La tecnica numero G70 ci dice di fornire una funzione per cercare in un dizionario online eventuali parole poco chiare per l'utente.
+
+29
+00:03:05,440 --> 00:03:15,040
+Ed ora che abbiamo dato una prima infarinatura a queste tecniche andiamo ad analizzarle nel dettaglio una ad uno, mostrando anche degli esempi per ognuna di queste tencniche.
+
+30
+00:03:15,980 --> 00:03:23,100
+Iniziamo andando ad analizzare la tecnica numero G101 che è comune a tutti e 4 l'insieme di tecniche.
+
+31
+00:03:23,480 --> 00:03:30,160
+La tecnica ci dice di fornire la definizione di una parola o frase usata in modo insolito o limitato.
+
+32
+00:03:30,820 --> 00:03:34,740
+una parola è usata in modo insolito o limitato quando...
+
+33
+00:03:34,740 --> 00:03:38,260
+i dizionari forniscono diverse definizioni della parola
+
+34
+00:03:38,500 --> 00:03:42,800
+una definizione specifica deve essere utilizzata per comprendere il contenuto
+
+35
+00:03:42,980 --> 00:03:48,180
+l'autore crea una nuova definizione che deve essere utilizzata per comprendere il contenuto.
+
+36
+00:03:49,060 --> 00:03:58,620
+Ora dopo aver analizzato la tecnica numero G101 andiamo ad analizzare mostrando anche degli esempi tutte le restanti tecniche della situazione A.
+
+37
+00:03:59,780 --> 00:04:09,700
+Come prima tecnica abbiamo la numero G55 che ci dice di fornire un collegamento alla definizione di una parola usata in modo insolito o limitato.
+
+38
+00:04:10,560 --> 00:04:20,060
+L'obiettivo di questa tecnica è quello di rendere disponibile la definizione di una parola, stabilendo un collegamento tra la parola e la sua definizione
+
+39
+00:04:20,460 --> 00:04:25,160
+come è possibile vedere a fianco abbiamo un esempio di applicazione di questa tecnica
+
+40
+00:04:25,160 --> 00:04:30,300
+infatti nella frase Antonio ha fatto i conti senza l'oste ed ora ne paga le conseguenze
+
+41
+00:04:30,380 --> 00:04:38,800
+possiamo cliccare su "fatto i conti senza l'oste" e cliccando li sopra si apre una nuova pagina dove è fornita la definizione di questa frase
+
+42
+00:04:38,940 --> 00:04:45,160
+e con questo esempio possiamo vedere molto meglio il collegamento che si crea tra la parola e la sua definizione.
+
+43
+00:04:45,700 --> 00:04:49,380
+ora abbiamo la tecnica numero H40
+
+44
+00:04:49,380 --> 00:04:54,760
+che è un'implementazione della tecnica G55 analizzata in precedenza.
+
+45
+00:04:55,200 --> 00:04:59,860
+La tecnica numero H40, ci dice di utilizzare gli elenchi descrittivi.
+
+46
+00:05:00,360 --> 00:05:09,940
+l'obbiettivo di questa tecnica è quello di fornire la descrizione di nomi oppure anche di termini presentandoli all'interno di un elenco descrittivo
+
+47
+00:05:10,580 --> 00:05:15,780
+L'elenco descrittivo da utilizzare è contrassegnato dall'uso dell'attributo dl
+
+48
+00:05:15,940 --> 00:05:20,800
+poi all'interno di questo elenco bisogna utilizzare altri 2 tipi di attributi che sono...
+
+49
+00:05:20,800 --> 00:05:23,680
+l'attributo dt e l'attributo dd
+
+50
+00:05:24,320 --> 00:05:28,820
+all'interno dell'attributo dt viene inserito ogni termine dell'elenco
+
+51
+00:05:28,820 --> 00:05:34,080
+mentre all'interno dell'attributo dd viene inserita la corrispettiva descrizione
+
+52
+00:05:34,380 --> 00:05:41,220
+inoltre possiamo utilizzare anche l'attributo title per fornire ulteriori informazioni sull'elenco descrittivo
+
+53
+00:05:41,900 --> 00:05:46,220
+a fianco possiamo vedere una reale applicazione di questo esempio
+
+54
+00:05:46,220 --> 00:05:55,420
+e come è possibile vedere meglio dal codice presente nella seguente immagine possiamo vedere molto meglio l'utilizzo degli attributi spiegati in precedenza.
+
+55
+00:05:55,580 --> 00:06:03,460
+Infatti abbiamo utilizzato l'attributo dt all'interno del quale abbiamo inserito le parole a cui bisogna dare una definizione
+
+56
+00:06:03,460 --> 00:06:07,980
+ed all'interno dell'attributo dd abbiamo inserito la descrizione della parola
+
+57
+00:06:07,980 --> 00:06:13,820
+e con questo codice è possibile visualizzare sulla pagina web il seguente elenco descrittivo.
+
+58
+00:06:14,840 --> 00:06:22,500
+Ora andiamo ad analizzare la tecnica numero H60 che è un'altra possibile implementazione della tecnica G55
+
+59
+00:06:23,000 --> 00:06:30,420
+La tecnica H60 ci dice di utilizzare l'elemento link per fornire il collegamento ad un glossario.
+
+60
+00:06:30,860 --> 00:06:36,540
+L'obiettivo di questa tecnica è quello di fornire un meccanismo per individuare il glossario
+
+61
+00:06:36,540 --> 00:06:42,540
+ed al glossario viene fatto riferimento tramite un link alla parte della pagina web dove è contenuto.
+
+62
+00:06:43,200 --> 00:06:51,220
+a fianco possiamo vedere meglio l'utilizzo infatti nella frase durante il backup dei dati la CPU potrebbe surriscaldarsi troppo
+
+63
+00:06:51,220 --> 00:06:57,320
+abbiamo due parola la cui definizione è contenuta nel glossario e queste due parole sono: backup e CPU.
+
+64
+00:06:57,500 --> 00:07:03,020
+infatti dopo queste parole possiamo visualizzare la scritta cerca nel glossario
+
+65
+00:07:03,020 --> 00:07:11,140
+che premendoci su porta in fondo alla pagina web dove è presentato il glossario con tutte le parole contenute all'interno di esso.
+
+66
+00:07:12,380 --> 00:07:18,580
+In seguito analizziamola tecnica numero G112 che ci dice di utilizzare le definizioni incorporate.
+
+67
+00:07:19,000 --> 00:07:27,360
+l'obiettivo di questa tecnica è quello di mettere una definizione nel contesto di una qualsiasi parola usata in modo insolito o limitato.
+
+68
+00:07:27,940 --> 00:07:34,400
+questa definizione può essere fornita nel testo, appena prima o subito dopo l'uso della parola.
+
+69
+00:07:34,760 --> 00:07:42,680
+come è possibile vedere meglio dall'esempio riportato a fianco abbiamo una frase all'interno della quale abbiamo utilizzato una definizione incorporata
+
+70
+00:07:42,680 --> 00:07:48,740
+infatti nella frase durante la partita di basket il giocatore Rossi ha subito la frattura del metacarpo
+
+71
+00:07:48,740 --> 00:07:54,320
+subito dopo l'utilizzo della parola metacarpo abbiamo fornito la corrispettiva definizione.
+
+72
+00:07:55,420 --> 00:08:00,760
+Un'implementazione della tecnica G112 è la tecnica numero H54
+
+73
+00:08:00,760 --> 00:08:10,260
+che ci dice di utilizzare l'attributo dfn per identificare l'istanza di una definizione di una parola.
+
+74
+00:08:10,800 --> 00:08:20,580
+L'obiettivo di questa tecnica è quello di usare l'attributo dfn per contrassegnare l'uso di una parola o l'uso di una frase in cui è definito.
+
+75
+00:08:20,840 --> 00:08:24,480
+In seguito è possibile vedere meglio l'utilizzo di questo attributo
+
+76
+00:08:24,480 --> 00:08:30,360
+infatti possiamo vedere che nella frase inserita le tre parole che sono il linguaggio c++
+
+77
+00:08:30,520 --> 00:08:34,440
+sono scritte con un font leggermente diverso rispetto al resto della frase
+
+78
+00:08:34,440 --> 00:08:44,820
+infatti, vedendo meglio dal codice mostrato nella seguente figura possiamo vedere che le 3 parole il cui font è leggermente diverso sono scritte all'interno dell'attributo dfn
+
+79
+00:08:45,000 --> 00:08:47,140
+mentre tutto il resto della frase no.
+
+80
+00:08:47,680 --> 00:08:53,980
+La penultima tecnica presentata è la numero G62 che ci dice di utilizzare un glossario.
+
+81
+00:08:54,200 --> 00:09:03,880
+L'obiettivo di questa tecnica è quello di rendere disponibile la definizione di una parola, frase o abbreviazione fornendo la definizione in un glossario.
+
+82
+00:09:04,260 --> 00:09:11,120
+Un glossario è un elenco alfabetico di parole e molto spesso è incluso alla fine della pagina web.
+
+83
+00:09:11,960 --> 00:09:24,520
+come è possibile vedere meglio dall'esempio riportato a fianco abbiamo una frase ed in questo esempio come nell'esempio della tecnica H60 abbiamo una parola il cui significato è contenuto all'interno del glossario
+
+84
+00:09:24,700 --> 00:09:37,080
+infatti premendo sulla scritta cerca nel glossario presente dopo la parola alterco in questo caso si scorre tutta la pagina fino ad arrivare in fondo dove è contenuto il glossario.
+
+85
+00:09:37,760 --> 00:09:47,520
+l'ultima tecnica presentata è la numero G70, questa tecnica ci dice di fornire una funzione per cercare la parola su un dizionario online.
+
+86
+00:09:47,800 --> 00:09:55,740
+L'obiettivo di questa tecnica è quello di mettere a disposizione dell'utente un meccanismo per accedere ad un dizionario online alla pagina web.
+
+87
+00:09:55,920 --> 00:10:08,000
+come è possibile vedere meglio nell'esempio accanto abbiamo una frase in cui una parola di essa in questo caso pen-drive ha a disposizione la scritta cerca nel dizionario
+
+88
+00:10:08,000 --> 00:10:14,140
+che premendoci su si apre una nuova pagina con il dizionario online treccani
+
+89
+00:10:14,500 --> 00:10:21,280
+all'interno del quale possiamo cercare la definizione della parola il cui significato non lo abbiamo chiaro.
+
+90
+00:10:22,000 --> 00:10:31,000
+Ora che le tecniche della situazione A sono state presentate mostrando un'esempio per ognuna di essa andiamo ad analizzare le tecniche della situazione B.
+
+91
+00:10:31,440 --> 00:10:34,840
+Per prima cosa diciamo quando si verifica la situazione B
+
+92
+00:10:35,220 --> 00:10:42,520
+la situazione B si verifica quando la parola o la frase ha significati diversi all'interno della stessa pagina web.
+
+93
+00:10:43,420 --> 00:10:51,060
+Le tecniche sufficienti per soddisfare questa tecnica sono composte da due insiemi di tecniche per un totale di 7 tecniche
+
+94
+00:10:51,060 --> 00:10:59,100
+ed anche in questo caso come nella situazione A abbiamo la tecnica G101 che è comune a tutte e due l'insiemi di tecniche.
+
+95
+00:10:59,680 --> 00:11:05,080
+ed analizzando meglio possiamo vedere che anche le restanti tecniche sono uguali a quelle della situazione A
+
+96
+00:11:05,080 --> 00:11:17,550
+però quandro andremo ad analizzare gli esempi bisogna rendersi conto che la situazione B si verifica in un'altro caso e quindi anche se le tecniche sono uguali l'applicazione nelle due situazioni sono differenti.
+
+97
+00:11:18,260 --> 00:11:27,120
+Il primo insieme di tecniche della situazione B è composto dalle tecniche G101, G55, H40 ed H60.
+
+98
+00:11:27,480 --> 00:11:34,980
+Come spiegato in precedenza la tecnica G101 ci dice di fornire la definizione di una parola o frase usata in modo insolito o limitato.
+
+99
+00:11:35,320 --> 00:11:41,240
+mentre la tecnica G55 è una possibile implementazione di quest'ultima
+
+100
+00:11:41,240 --> 00:11:45,560
+e ci dice di fornire un meccanismo per il collegamento alle definizioni
+
+101
+00:11:46,000 --> 00:11:59,040
+inoltre questa tecnica si può implementare sia con la tecnica numero H40, ovvero utilizzare gli elenchi descrittivi e sia con la tecnica H60 utilizzare l'elemento link per il collegamento ad un glossario.
+
+102
+00:11:59,780 --> 00:12:06,940
+Il secondo insieme di tecniche è composto dalle tecniche G101, G112 e H54.
+
+103
+00:12:07,480 --> 00:12:13,140
+Questa volta la tecnica G101 può essere implementata con la tecnica G112
+
+104
+00:12:13,140 --> 00:12:16,960
+che ci dice di utilizzare le definizioni incorporate
+
+105
+00:12:16,960 --> 00:12:23,000
+ed a sua volta la tecnica numero G112 può essere implementata con la tecnica H54
+
+106
+00:12:23,000 --> 00:12:29,420
+ovvero utilizzare l'attributo dfn per identificare l'istanza di una definizioni di una parola.
+
+107
+00:12:30,200 --> 00:12:35,240
+ora che abbiamo mostrato le tecniche sufficienti per soddisfare la situazione B
+
+108
+00:12:35,240 --> 00:12:43,380
+andiamo a mostrare gli esempi per ognuna di esse mostrando tutte le differenze che si hanno tra la situazione A e la situazione B.
+
+109
+00:12:44,220 --> 00:12:47,820
+Come prima tecnica analizziamo la numero G55
+
+110
+00:12:47,820 --> 00:12:54,160
+che come è possibile vedere meglio dalla spiegazione ci dice di utilizzare un collegamento a delle definizioni.
+
+111
+00:12:54,660 --> 00:12:59,620
+A fianco è mostrato un esempio di applicazione di questa tecnica nella situazione B
+
+112
+00:12:59,620 --> 00:13:07,380
+infatti la differenza con la situazione A sta nel fatto che nella situazione B abbiamo due stesse parole a cui è applicata la tecnica.
+
+113
+00:13:07,570 --> 00:13:20,300
+Infatti nella frase io amo la pesca ma a me piace anche la pesca entrambe le parola pesca possono essere cliccate e una volta premuto sopra di esse viene mostrato la definizione per quella determinata parola.
+
+114
+00:13:20,660 --> 00:13:33,680
+Infatti se premiamo sulla prima parola pesca si apre una nuova pagina che mostra la definizione di pesca che in questo caso è intesa come la ricerca e la cattura degli animali
+
+115
+00:13:33,900 --> 00:13:47,260
+mentre premendo sulla seconda parola pesca si aprirà anche in questo caso una nuova pagina ma in questo caso la definizione che viene mostrata è differente infatti viene mostrata la definizione di pesca intesa come frutto.
+
+116
+00:13:47,980 --> 00:13:55,900
+Infatti possiamo vedere che due stesse parole possono avere significati diversi all'interno della stessa pagina
+
+117
+00:13:55,900 --> 00:14:01,060
+e quindi è oppurtuno specificare il significato di ognuna di queste parole.
+
+118
+00:14:01,820 --> 00:14:11,380
+In seguito analizziamo la tecnica H40 che come abbiamo visto per la situazione A ci dice di utilizzare degli elenchi descrittivi
+
+119
+00:14:11,380 --> 00:14:17,360
+Infatti a fianco è portato come nell'esempio della situazione A un elenco descrittivo
+
+120
+00:14:17,360 --> 00:14:23,320
+ma all'interno di esso in questo caso abbiamo due parole uguali che però hanno significato diverso
+
+121
+00:14:23,320 --> 00:14:33,420
+infatti abbiamo la parola capo che una volta significa capo inteso come la persona che comanda mentre una volta significa capo inteso come parte del corpo umana.
+
+122
+00:14:33,960 --> 00:14:40,040
+Anche per mostrare a video questo elenco abbiamo utilizzato gli stessi attributi che sono mostrati nella seguente immagine.
+
+123
+00:14:40,420 --> 00:14:46,140
+e con il codice mostrato in figura abbiamo mostrato sulla pagina web il seguente elenco descrittivo.
+
+124
+00:14:46,780 --> 00:14:58,980
+Ora andiamo ad analizzare un'altra implementazione della tecnica G55 ovvero la tecnica H60 che ci dice di fornire un link per effettuare il collegamento ad un glossario.
+
+125
+00:14:59,380 --> 00:15:05,200
+infatti a fianco possiamo vedere un'esempio di questa tecnica applicata nella situazione B
+
+126
+00:15:05,780 --> 00:15:18,220
+nella frase appena arrivato a mosca trovai una mosca all'interno del mio giacchetto sia la prima che la seconda parola mosca hanno presenti un link che collega la parola con il glossario che si trova in fondo alla pagina web.
+
+127
+00:15:18,720 --> 00:15:23,780
+infatti premendo sulla parola cerca nel glossario presente dopo entrambi le parole mosca
+
+128
+00:15:24,100 --> 00:15:28,320
+si attiverà il collegamento che porta in fondo alla pagina dove è presente il glossario
+
+129
+00:15:28,620 --> 00:15:37,620
+ed è possibile vedere che la prima parola mosca è intesa come la capitale della Russia mentre la seconda parola mosca è intesa come insetto.
+
+130
+00:15:38,380 --> 00:15:47,700
+Ora andiamo ad analizzare la tecnica che ci dice di utilizzare le definizione incorporate ovvero andiamo ad analizzare la tecnica numero G112.
+
+131
+00:15:48,400 --> 00:15:58,160
+E come è possibile vedere meglio nell'esempio a finaco anche in questo caso abbiamo due parole uguali all'interno della stessa frase che in questo caso sono messe
+
+132
+00:15:58,420 --> 00:16:07,420
+e sia dopo la prima che la seconda parola abbiamo la definizione incorporata delle corrispettive parole.
+
+133
+00:16:08,000 --> 00:16:16,440
+Infatti nel primo caso messe si intende il rito religioso mentre nel secondo caso in intende l'operazione di raccogliere i cereali.
+
+134
+00:16:17,360 --> 00:16:32,940
+Come ultima tecnica andiamo ad analizzare una possibile implementazione della tecnica analizzata in precedenza ovvero la tecnica numero H54 che ci dice di utilizzare l'attributo dfn per identificare l'istanza di una definizione di una parola.
+
+135
+00:16:33,920 --> 00:16:41,420
+E come esempio abbiamo due parole uguali che sono state scritte all'interno dell'attributo dfn
+
+136
+00:16:41,800 --> 00:16:46,580
+come è possibile vedere meglio dal codice che abbiamo utilizzato per fornire questo esempio
+
+137
+00:16:46,580 --> 00:16:57,280
+in entrambi i casi abbiamo la parola esca che però nel primo caso si intende esca come mezzo per attrirare gli animali mentre nel secodo caso si intende esca come verbo uscire
+
+138
+00:16:58,120 --> 00:17:12,880
+ora che le tecniche sufficienti per soddisfare sia la situazione A che la situazione B sono state presentate mostrando anche degli esempi per ognuna di esse possiamo applicaree correttamente tutto il criterio di successo 3.1.3
+
+139
+00:17:13,720 --> 00:17:18,380
+Spero di essere stato il più chiaro possibile e grazie per la vostra attenzione.
+

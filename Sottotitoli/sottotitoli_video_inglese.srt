@@ -1,0 +1,556 @@
+﻿1
+00:00:00,560 --> 00:00:07,980
+In this video we talk about the criterion 3.1.3 unusual words level AAA.
+
+2
+00:00:08,580 --> 00:00:13,740
+This criterion is a criterion of guideline 3.1 Readable
+
+3
+00:00:13,740 --> 00:00:18,960
+in fact, we must always make the text readable and understandable to everyone ...
+
+4
+00:00:19,560 --> 00:00:22,580
+For more information on this guideline
+
+5
+00:00:22,580 --> 00:00:27,220
+compare the Web Content Accessibility Guidelines website
+
+6
+00:00:27,220 --> 00:00:33,340
+(WCAG) 3.1 and go to www.w3.org
+
+7
+00:00:33,940 --> 00:00:38,480
+Now let's look at criterion 3.1.3 in detail
+
+8
+00:00:39,120 --> 00:00:42,360
+this criterion makes available to the user
+
+9
+00:00:42,360 --> 00:00:45,980
+a mechanism to identify specific definitions
+
+10
+00:00:45,980 --> 00:00:50,720
+words or phrases that have been used in an unusual or restricted way.
+
+11
+00:00:51,400 --> 00:00:57,420
+These words also include idiomatic and slang expressions
+
+12
+00:00:58,220 --> 00:01:03,540
+The techniques sufficient to meet the criterion are divided into two situations which are ...
+
+13
+00:01:03,540 --> 00:01:09,980
+the situation a, when the word or phrase has a unique meaning within the web page
+
+14
+00:01:09,980 --> 00:01:17,120
+and situation b, when the word or phrase means different things within the same web page.
+
+15
+00:01:18,260 --> 00:01:23,200
+The techniques sufficient to satisfy situation A are the following:
+
+16
+00:01:23,600 --> 00:01:29,040
+we have four sets of techniques and the G101 technique is common to all four.
+
+17
+00:01:29,740 --> 00:01:37,400
+The first set of techniques is made up of technique G101, G55, H40 and H60.
+
+18
+00:01:37,840 --> 00:01:46,220
+The G55 technique presents us with providing a link to the definitions of words used in an unusual or restricted way.
+
+19
+00:01:46,840 --> 00:01:55,200
+He in turn divides himself into the H40 technique, that is to provide descriptive lists of all the words used in an unusual or restricted way
+
+20
+00:01:55,200 --> 00:02:03,560
+and the H60 technique, i.e. the use of the link element to link to a glossary where all these words are collected
+
+21
+00:02:03,560 --> 00:02:07,620
+and generally the glossary is located at the bottom of the web page.
+
+22
+00:02:08,080 --> 00:02:16,240
+The second set of techniques is made up of techniques G101, G112 and H54.
+
+23
+00:02:16,500 --> 00:02:21,320
+The G112 technique tells us to provide built-in definitions
+
+24
+00:02:21,320 --> 00:02:31,880
+while the H54 technique tells us to use the dfn attribute to identify the instance of a definition of a word.
+
+25
+00:02:32,980 --> 00:02:38,280
+The third set is composed of the techniques G101 and G62.
+
+26
+00:02:39,080 --> 00:02:47,920
+The latter technique tells us to provide a glossary in which all the words used in an unusual or limited way are collected.
+
+27
+00:02:48,720 --> 00:02:55,580
+The fourth and final set of techniques is composed of techniques number G101 and G70.
+
+28
+00:02:55,580 --> 00:03:04,940
+Technique number G70 tells us to provide a function to search in an online dictionary for unclear words for the user.
+
+29
+00:03:05,440 --> 00:03:15,040
+And now that we have given a first smattering of these techniques we are going to analyze them in detail one by one, also showing examples for each of these techniques.
+
+30
+00:03:15,980 --> 00:03:23,100
+Let's start by analyzing the technique number G101 which is common to all 4 of the set of techniques.
+
+31
+00:03:23,480 --> 00:03:30,160
+The technique tells us to provide the definition of a word or phrase used in an unusual or limited way.
+
+32
+00:03:30,820 --> 00:03:34,740
+a word is used in an unusual or limited way when ...
+
+33
+00:03:34,740 --> 00:03:38,260
+dictionaries provide different definitions of the word
+
+34
+00:03:38,500 --> 00:03:42,800
+a specific definition must be used to understand the content
+
+35
+00:03:42,980 --> 00:03:48,180
+the author creates a new definition that must be used to understand the content.
+
+36
+00:03:49,060 --> 00:03:58,620
+Now after analyzing the technique number G101 we are going to analyze also showing some examples all the remaining techniques of the situation A.
+
+37
+00:03:59,780 --> 00:04:09,700
+As a first technique we have the number G55 which tells us to provide a link to the definition of a word used in an unusual or limited way.
+
+38
+00:04:10,560 --> 00:04:20,060
+The goal of this technique is to make the definition of a word available, establishing a link between the word and its definition
+
+39
+00:04:20,460 --> 00:04:25,160
+as you can see alongside we have an example of application of this technique
+
+40
+00:04:25,160 --> 00:04:30,300
+in fact in the sentence Antonio did the math without the host and now he pays the consequences
+
+41
+00:04:30,380 --> 00:04:38,800
+we can click on "done the accounts without the innkeeper" and clicking on them opens a new page where the definition of this sentence is provided
+
+42
+00:04:38,940 --> 00:04:45,160
+and with this example we can see much better the connection that is created between the word and its definition.
+
+43
+00:04:45,700 --> 00:04:49,380
+now we have technique number H40
+
+44
+00:04:49,380 --> 00:04:54,760
+which is an implementation of the G55 technique analyzed previously.
+
+45
+00:04:55,200 --> 00:04:59,860
+Technique number H40 tells us to use descriptive lists.
+
+46
+00:05:00,360 --> 00:05:09,940
+the goal of this technique is to provide the description of names or even terms by presenting them within a descriptive list
+
+47
+00:05:10,580 --> 00:05:15,780
+The descriptive list to be used is marked by the use of the dl attribute
+
+48
+00:05:15,940 --> 00:05:20,800
+then within this list you have to use 2 other types of attributes which are ...
+
+49
+00:05:20,800 --> 00:05:23,680
+the dt attribute and the dd attribute
+
+50
+00:05:24,320 --> 00:05:28,820
+every term in the list is inserted inside the dt attribute
+
+51
+00:05:28,820 --> 00:05:34,080
+while the corresponding description is inserted in the dd attribute
+
+52
+00:05:34,380 --> 00:05:41,220
+Furthermore, we can also use the title attribute to provide further information on the descriptive list
+
+53
+00:05:41,900 --> 00:05:46,220
+alongside we can see a real application of this example
+
+54
+00:05:46,220 --> 00:05:55,420
+and as you can see better from the code in the following image we can see much better the use of the attributes explained above.
+
+55
+00:05:55,580 --> 00:06:03,460
+In fact, we used the dt attribute inside which we inserted the words that need to be defined
+
+56
+00:06:03,460 --> 00:06:07,980
+and inside the attribute dd we have inserted the description of the word
+
+57
+00:06:07,980 --> 00:06:13,820
+and with this code it is possible to display the following descriptive list on the web page.
+
+58
+00:06:14,840 --> 00:06:22,500
+Now let's analyze the technique number H60 which is another possible implementation of the G55 technique
+
+59
+00:06:23,000 --> 00:06:30,420
+The H60 technique tells us to use the link element to provide the link to a glossary.
+
+60
+00:06:30,860 --> 00:06:36,540
+The goal of this technique is to provide a mechanism to locate the glossary
+
+61
+00:06:36,540 --> 00:06:42,540
+and the glossary is referenced through a link to the part of the web page where it is contained.
+
+62
+00:06:43,200 --> 00:06:51,220
+alongside we can see better the use in fact in the sentence during data backup the CPU could overheat too much
+
+63
+00:06:51,220 --> 00:06:57,320
+we have two words whose definition is contained in the glossary and these two words are: backup and CPU.
+
+64
+00:06:57,500 --> 00:07:03,020
+in fact after these words we can visualize the written search in the glossary
+
+65
+00:07:03,020 --> 00:07:11,140
+that by pressing on brings to the bottom of the web page where the glossary with all the words contained within it is presented.
+
+66
+00:07:12,380 --> 00:07:18,580
+Then let's analyze the technique number G112 which tells us to use the built-in definitions.
+
+67
+00:07:19,000 --> 00:07:27,360
+the goal of this technique is to put a definition in the context of any word used in an unusual or limited way.
+
+68
+00:07:27,940 --> 00:07:34,400
+this definition can be provided in the text, just before or immediately after the use of the word.
+
+69
+00:07:34,760 --> 00:07:42,680
+as you can see better from the example shown here, we have a phrase in which we have used a built-in definition
+
+70
+00:07:42,680 --> 00:07:48,740
+in fact in the sentence during the basketball game the player Rossi suffered the fracture of his metacarpal
+
+71
+00:07:48,740 --> 00:07:54,320
+immediately after the use of the word metacarpus we provided the corresponding definition.
+
+72
+00:07:55,420 --> 00:08:00,760
+An implementation of technique G112 is technique number H54
+
+73
+00:08:00,760 --> 00:08:10,260
+which tells us to use the dfn attribute to identify the instance of a word definition.
+
+74
+00:08:10,800 --> 00:08:20,580
+The goal of this technique is to use the dfn attribute to mark the use of a word or the use of a sentence in which it is defined.
+
+75
+00:08:20,840 --> 00:08:24,480
+Later you can better see the use of this attribute
+
+76
+00:08:24,480 --> 00:08:30,360
+in fact we can see that in the inserted sentence the three words which are the C ++ language
+
+77
+00:08:30,520 --> 00:08:34,440
+they are written in a slightly different font than the rest of the sentence
+
+78
+00:08:34,440 --> 00:08:44,820
+in fact, seeing better from the code shown in the following figure we can see that the 3 words whose font is slightly different are written inside the dfn attribute
+
+79
+00:08:45,000 --> 00:08:47,140
+while the rest of the sentence does not.
+
+80
+00:08:47,680 --> 00:08:53,980
+The penultimate technique presented is the number G62 which tells us to use a glossary.
+
+81
+00:08:54,200 --> 00:09:03,880
+The goal of this technique is to make the definition of a word, phrase or abbreviation available by providing the definition in a glossary.
+
+82
+00:09:04,260 --> 00:09:11,120
+A glossary is an alphabetical list of words and is very often included at the end of the web page.
+
+83
+00:09:11,960 --> 00:09:24,520
+as you can see better from the example shown here we have a sentence and in this example as in the example of the H60 technique we have a word whose meaning is contained within the glossary
+
+84
+00:09:24,700 --> 00:09:37,080
+in fact, by pressing on the word search in the glossary present after the word altercation in this case you scroll the whole page up to the bottom where the glossary is contained.
+
+85
+00:09:37,760 --> 00:09:47,520
+the last technique presented is the number G70, this technique tells us to provide a function to search for the word in an online dictionary.
+
+86
+00:09:47,800 --> 00:09:55,740
+The goal of this technique is to provide the user with a mechanism to access an online dictionary on the web page.
+
+87
+00:09:55,920 --> 00:10:08,000
+as you can see better in the example alongside we have a sentence in which a word of it in this case pen-drive has the word search in the dictionary available
+
+88
+00:10:08,000 --> 00:10:14,140
+that pressing on it opens a new page with the online dictionary treccani
+
+89
+00:10:14,500 --> 00:10:21,280
+within which we can look for the definition of the word whose meaning we have not clear.
+
+90
+00:10:22,000 --> 00:10:31,000
+Now that the techniques of situation A have been presented showing an example for each one, let's analyze the techniques of situation B.
+
+91
+00:10:31,440 --> 00:10:34,840
+First let's say when situation B occurs
+
+92
+00:10:35,220 --> 00:10:42,520
+situation B occurs when the word or phrase has different meanings within the same web page.
+
+93
+00:10:43,420 --> 00:10:51,060
+The techniques sufficient to satisfy this technique are composed of two sets of techniques for a total of 7 techniques
+
+94
+00:10:51,060 --> 00:10:59,100
+and also in this case as in situation A we have the technique G101 which is common to both sets of techniques.
+
+95
+00:10:59,680 --> 00:11:05,080
+and analyzing better we can see that the remaining techniques are also the same as in situation A
+
+96
+00:11:05,080 --> 00:11:17,550
+however when we go to analyze the examples one must realize that situation B occurs in another case and therefore even if the techniques are the same the application in the two situations are different.
+
+97
+00:11:18,260 --> 00:11:27,120
+The first set of techniques of situation B is composed of techniques G101, G55, H40 and H60.
+
+98
+00:11:27,480 --> 00:11:34,980
+As explained previously, the G101 technique tells us to provide the definition of a word or phrase used in an unusual or limited way.
+
+99
+00:11:35,320 --> 00:11:41,240
+while the G55 technique is a possible implementation of the latter
+
+100
+00:11:41,240 --> 00:11:45,560
+and tells us to provide a mechanism for linking to definitions
+
+101
+00:11:46,000 --> 00:11:59,040
+moreover this technique can be implemented both with the technique number H40, that is to use the descriptive lists and with the H60 technique use the link element for the connection to a glossary.
+
+102
+00:11:59,780 --> 00:12:06,940
+The second set of techniques is made up of techniques G101, G112 and H54.
+
+103
+00:12:07,480 --> 00:12:13,140
+This time the G101 technique can be implemented with the G112 technique
+
+104
+00:12:13,140 --> 00:12:16,960
+which tells us to use the built-in definitions
+
+105
+00:12:16,960 --> 00:12:23,000
+and in turn the technique number G112 can be implemented with the H54 technique
+
+106
+00:12:23,000 --> 00:12:29,420
+that is, use the dfn attribute to identify the instance of a word definition.
+
+107
+00:12:30,200 --> 00:12:35,240
+now that we've shown enough techniques to satisfy situation B
+
+108
+00:12:35,240 --> 00:12:43,380
+let's show the examples for each of them showing all the differences between situation A and situation B.
+
+109
+00:12:44,220 --> 00:12:47,820
+As a first technique we analyze the number G55
+
+110
+00:12:47,820 --> 00:12:54,160
+which as you can see better from the explanation tells us to use a link to definitions.
+
+111
+00:12:54,660 --> 00:12:59,620
+An example of application of this technique in situation B is shown alongside
+
+112
+00:12:59,620 --> 00:13:07,380
+in fact the difference with situation A lies in the fact that in situation B we have two same words to which the technique is applied.
+
+113
+00:13:07,570 --> 00:13:20,300
+In fact, in the sentence I love fishing but I also like fishing both words fishing can be clicked and once pressed on them the definition for that particular word is shown.
+
+114
+00:13:20,660 --> 00:13:33,680
+In fact if we press on the first word fishing a new page opens showing the definition of fishing which in this case is intended as the search for and the capture of animals
+
+115
+00:13:33,900 --> 00:13:47,260
+while pressing on the second word peach a new page will be opened also in this case but in this case the definition that is shown is different in fact the definition of peach intended as fruit is shown.
+
+116
+00:13:47,980 --> 00:13:55,900
+In fact we can see that two same words can have different meanings within the same page
+
+117
+00:13:55,900 --> 00:14:01,060
+and therefore it is appropriate to specify the meaning of each of these words.
+
+118
+00:14:01,820 --> 00:14:11,380
+We then analyze the H40 technique which as we have seen for situation A tells us to use descriptive lists
+
+119
+00:14:11,380 --> 00:14:17,360
+In fact, a descriptive list is brought alongside as in the example of situation A
+
+120
+00:14:17,360 --> 00:14:23,320
+but inside it in this case we have two equal words which however have different meaning
+
+121
+00:14:23,320 --> 00:14:33,420
+in fact we have the word head which once means head intended as the person who commands while once it means head intended as part of the human body.
+
+122
+00:14:33,960 --> 00:14:40,040
+We also used the same attributes to show this list on video which are shown in the following image.
+
+123
+00:14:40,420 --> 00:14:46,120
+and with the code shown in the figure we have shown the following descriptive list on the web page.
+
+124
+00:14:46,780 --> 00:14:58,980
+Now let's analyze another implementation of the G55 technique or the H60 technique that tells us to provide a link to link to a glossary.
+
+125
+00:14:58,980 --> 00:15:05,200
+in fact at the side we can see an example of this technique applied in situation B
+
+126
+00:15:05,780 --> 00:15:18,220
+in the sentence just arrived in fly I found a fly inside my jacket both the first and the second word fly have a link that connects the word with the glossary located at the bottom of the web page.
+
+127
+00:15:18,720 --> 00:15:23,780
+in fact, pressing on the word, search in the glossary after both words fly
+
+128
+00:15:24,100 --> 00:15:28,320
+the link that leads to the bottom of the page where the glossary is present will be activated
+
+129
+00:15:28,620 --> 00:15:37,620
+and it is possible to see that the first word moscow is intended as the capital of Russia while the second word moscow is intended as an insect.
+
+130
+00:15:38,380 --> 00:15:47,700
+Now let's analyze the technique that tells us to use the built-in definitions or let's analyze the technique number G112.
+
+131
+00:15:48,400 --> 00:15:58,160
+And as it is possible to see better in the example alongside also in this case we have two equal words within the same sentence which in this case are put
+
+132
+00:15:58,420 --> 00:16:07,420
+and both after the first and the second word we have the built-in definition of the corresponding words.
+
+133
+00:16:08,000 --> 00:16:16,440
+In fact in the first case mass means the religious rite while in the second case in means the operation of collecting cereals.
+
+134
+00:16:17,360 --> 00:16:32,940
+As a last technique we are going to analyze a possible implementation of the previously analyzed technique or the technique number H54 that tells us to use the dfn attribute to identify the instance of a definition of a word.
+
+135
+00:16:33,920 --> 00:16:41,420
+And as an example we have two equal words that were written inside the dfn attribute
+
+136
+00:16:41,800 --> 00:16:46,580
+as you can see better from the code we used to provide this example
+
+137
+00:16:46,580 --> 00:16:57,280
+in both cases we have the word bait but in the first case we mean bait as a means of attracting animals while in the second case we mean bait as a verb to exit
+
+138
+00:16:58,120 --> 00:17:12,880
+now that the techniques sufficient to satisfy both situation A and situation B have been presented showing also examples for each of them we can correctly apply all the success criterion 3.1.3
+
+139
+00:17:13,720 --> 00:17:18,380
+I hope I have been as clear as possible and thank you for your attention.
+
