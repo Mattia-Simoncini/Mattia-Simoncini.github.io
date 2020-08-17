@@ -13,3 +13,7 @@ Non avendo mai usato l'editor Aegisub, non è stato immediato capire tutte le fu
 # GitHub:
 
 All'inizio non è stato immediato impararlo perché non avendolo mai usato non sono riuscito a capire subito tutte le sue funzionalità. Però dopo essermi informato sulle varie funzionalità è stato abbastanza semplice da utilizzare. Per effettuare questo progetto ho utilizzato GitHub Pages ed ho lavorato su GitHub Desktop che ho scaricato sul mio PC cosi da poter lavorare con il progetto in locale e caricarlo su GitHub Pages una volta finito completamente il progetto.
+
+# My GitHub Pages:
+
+https://mattia-simoncini.github.io/.
